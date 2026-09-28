@@ -42,7 +42,7 @@ Tidak semua pelanggan memberi nilai yang sama bagi bisnis. Proyek ini menjawab:
 - Puncak tahunan: Sep 2014 ($81,8K) → Nov 2015 ($76,0K) → Des 2016 ($97,0K) → **Nov 2017 ($118,4K)**.
 - Titik terendah selalu di Januari–Februari (mis. Feb 2014: $4,5K).
 
-![Tren Sales Bulanan](images/monthly_sales_trend.png)
+![Tren Sales Bulanan](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(7).png)
 
 ### 2. Sales & Profit per Kategori
 
@@ -52,17 +52,17 @@ Tidak semua pelanggan memberi nilai yang sama bagi bisnis. Proyek ini menjawab:
 | Furniture | ~$742.000 | $18.451 | Sales besar tetapi margin sangat tipis (*profit leakage*) |
 | Office Supplies | $719.047 | $122.491 | Margin sehat dan stabil |
 
-![Sales & Profit per Kategori](images/sales_profit_category.png)
+![Sales & Profit per Kategori](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(13).png)
 
 ### 3. Distribusi Customer per Segmen
 **Consumer** mendominasi (409 customer, >50%), diikuti **Corporate** (236) dan **Home Office** (148).
 
-![Customer per Segment](images/customer_per_segment.png)
+![Customer per Segment](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(8).png)
 
 ### 4. Diskon vs Profit
 Transaksi tanpa diskon hingga diskon rendah cenderung menghasilkan profit positif. Pada diskon **≥ 30%** profit mulai negatif dan pada diskon **70–80%** kerugian bisa mencapai sekitar **-$6.600** per transaksi. Pemberian diskon besar perlu dikendalikan.
 
-![Discount vs Profit](images/discount_vs_profit.png)
+![Discount vs Profit](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(9).png)
 
 ---
 
@@ -433,8 +433,7 @@ plt.show()
 
 **Champions + Loyal Customers = 430 customer (54,2%)** dari total basis pelanggan.
 
-![Distribusi RFM](images/rfm_distribution.png)
-
+![Distribusi RFM](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(10).png)
 ### Validasi Model CLV (Holdout Tahun 4)
 
 | Metrik | Nilai |
@@ -456,7 +455,7 @@ Model awal (hanya existing customer) meng-*underestimate* profit aktual ($64.424
 | New customer | $23.905 |
 | **Total proyeksi** | **$95.504** |
 
-![Segmen CLV](images/clv_segment.png)
+![Segmen CLV](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(11).png)
 
 ### Cross-Analysis: RFM × CLV
 
@@ -470,7 +469,7 @@ Model awal (hanya existing customer) meng-*underestimate* profit aktual ($64.424
 | At Risk | 23 | 22 | 25 | 23 | 27 |
 | Lost | 5 | 9 | 19 | 31 | 33 |
 
-![Heatmap RFM x CLV](images/rfm_clv_heatmap.png)
+![Heatmap RFM x CLV](https://github.com/naelasproject0817/Customer-Segmentation-Lifetime-Value-Analysis-Superstore/blob/main/download%20(12).png)
 
 ---
 
@@ -525,8 +524,8 @@ pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook notebooks/Naela_Customer_Lifetime_Value.ipynb
 ```
 
-Atau buka langsung di Google Colab: **[Buka Notebook](LINK_COLAB_KAMU)**
-📄 Laporan lengkap: **[Baca Laporan](LINK_LAPORAN_KAMU)**
+Atau buka langsung di Google Colab: **[Buka Notebook](https://colab.research.google.com/drive/1tLI1xyIyCjHrqdTibasW7-Xgcmp4hp-p#scrollTo=0mdzFj83QU-q)**
+📄 Laporan lengkap: **[Baca Laporan](https://drive.google.com/file/d/1UI1GjniPtDuhJJuJO4xD7RZFpYApc-2i/view)**
 
 ## ⚠️ Keterbatasan
 
@@ -541,7 +540,7 @@ Atau buka langsung di Google Colab: **[Buka Notebook](LINK_COLAB_KAMU)**
 **Naela**
 Data Analyst (Dibimbing Data Analyst & BI Bootcamp) · Accounting graduate
 📍 Semarang, Indonesia
-🔗 [GitHub](https://github.com/naelasproject0817) · [TikTok / Instagram: Journaela](#) · [LinkedIn](#)
+🔗 [GitHub](https://github.com/naelasproject0817)
 
 ---
 *Proyek ini dibuat sebagai bagian dari portofolio data analytics.*
